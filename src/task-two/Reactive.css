@@ -1,0 +1,38 @@
+.update-component-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50rem;
+    margin: auto;
+  }
+  
+  .update-component-container button,
+  .update-component-container input {
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  
+  .update-component-container button:hover,
+  .update-component-container input:hover {
+    transform: scale(1.07);
+  }
+  
+  .update-component-container button:active,
+  .update-component-container input:active {
+    transform: scale(0.93);
+  }
+  
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+  }
